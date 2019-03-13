@@ -1,0 +1,308 @@
+body{
+	margin:0;
+	padding:0;
+}
+#post{
+	width:100%;
+	height:500px;
+	border:1px solid #dfe6e9;
+	margin-bottom:4px;
+	border-radius:5px;
+	margin-top:25px;
+}
+
+#avatar{
+	float:left;
+	width:55px;
+	height:55px;
+}
+#description{
+	padding:10px;
+}
+#divider{
+	height:0;
+	width:97%;
+	border: 1px solid #b2bec3;
+	margin-left: 18px;
+	margin-right:10px;
+	margin-top:10px;
+}
+.class-image{
+	width:100%;
+	height:300px;
+}
+#name{
+	margin-left:5%;
+	padding-top:0.3px;
+	color: #636e72;
+}
+#frame{
+	width:700px;
+	height:350px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-color:  #3b5998;
+	display: none;
+	border-radius:10px;
+	color:white;
+}
+#upload-text{
+	width:98%;
+	height:50px;
+	padding:6px;
+}
+#upload-u{
+	margin:10px;
+	margin-left:294px;
+	margin-top:20px;
+	background:transparent;
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:10px;
+}
+#upload-c{
+	background: transparent;
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:2px;
+}
+#upload-header{
+	text-align:center;
+}
+#input-image{
+	margin-left:10px;
+}
+#time{
+	margin-top: -26px;
+	padding-top:2px;
+}
+#main-header{
+	background-color: #3b5998;
+	height:60px;
+	width:100%;
+	padding:2px;
+	font-size: 20px;
+	color:white;
+	outline: none;
+	border:none;
+	top:0;
+	display: flex;
+	position:fixed;
+}
+#name-header{
+	color:#3b5998;
+}
+i{
+	color:#636e72;
+}
+#like{
+	display:flex;
+}
+.button{
+	background: transparent;
+	outline:none;
+	border:none;
+	color:#636e72;
+	cursor:pointer;
+}
+
+.like-outer:hover{
+	background-color:#dfe6e9;
+	cursor:pointer;
+
+}
+.share-outer:hover{
+	background-color: #dfe6e9;
+	cursor:pointer;
+}
+.comment-outer:hover{
+	background-color: #dfe6e9;
+	cursor:pointer;
+}
+#upload-u{
+	background:transparent;
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:20px;
+}
+#upload-c{
+	background: transparent;
+	outline:none;
+	border:none;
+	color:white;
+	border-radius:20px;
+}
+#upload-u:hover{
+	cursor: pointer;
+	color:#3b5998;
+	background-color: white;
+	font-weight: bold;
+}
+#upload-c:hover{
+	cursor:pointer;
+	background-color:white;
+	color:#3b5998;
+	font-weight: bold;
+}
+.like-outer{
+	margin-left:100px;
+	margin-right: 100px;
+	margin-top:6px;
+
+}
+.comment-outer{
+	margin-left:300px;
+	margin-right: 100px;
+	margin-top:6px;
+}
+.share-outer{
+	margin-left:300px;
+	margin-right: 100px;
+	margin-top:6px;
+}
+.comment-text{
+	width:99.5%;
+	height:30px;
+	display:none;
+	border-radius: 10px;
+	background-color:#EEEEEE;
+	outline: none;
+	padding-left:4px;
+	margin-top:4px;
+}
+.wider{
+	height:600px;
+}
+.comment-button{
+	background:transparent;
+	outline:none;
+	border:none;
+	height:20px;
+	font-size:15px;
+	margin-left:10px;
+	border-radius:20px;
+	border:0.5px solid  #636e72;
+	color:#636e72;
+	margin-top:5px;
+	display:none;
+}
+.comment-button:hover{
+	color:white;
+	background-color: #3b5998;
+}
+#outer-cbutton{
+	display:none;
+}
+#paper-plane{
+	color:white;
+	margin-top:6px;
+	margin-left:5px;
+	cursor: pointer;
+}
+#hit-upload{
+	outline:none;
+	background:transparent;
+	color:white;
+	border:none;
+	margin-top:7px;
+	font-size:20px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+#post-icon{
+	border:0.5px solid white;
+	width:100px;
+	margin-top:7px;
+	border-radius:10px;
+	margin-left:7px;
+	height:40px;
+}
+#post-icon:hover{
+	background-color: red;
+	transition: 0.3s;
+	cursor:pointer;
+}
+#filter-icon{
+	border:0.5px solid white;
+	width:100px;
+	margin-top:7px;
+	border-radius:10px;
+	margin-left:7px;
+	height:40px;
+	margin-left: 14px;
+	transition: 0.3s;
+}
+#filter-icon:hover{
+	background-color: red;
+	transition: 0.3s;
+}
+#filter{
+	color:white;
+	margin-left:3px;
+	cursor:pointer;
+}
+#hit-filter{
+	background:transparent;
+	outline:none;
+	color:white;
+	border:none;
+	font-size:20px;
+	margin-top:7px;
+	cursor: pointer;
+}
+#filter-box{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background-color: white;
+	display:none;
+}
+#most-liked{
+	margin-left:48px;
+}
+#cross{
+	position: absolute;
+	top:8%;
+	left:85%;
+}
+#cross:hover{
+	cursor:pointer;
+}
+a{
+	padding:10px;
+}
+#pagination{
+	margin-top: 20px;
+}
+.emoji{
+	padding-left: 3px;
+}
+#before-image{
+	background:transparent;
+	margin-left:10px;
+	outline:none;
+	color:white;
+	border-radius:10px;
+	color:white;
+	border-color:white;
+}
+
+#before-image:hover{
+	cursor: pointer;
+	color:#3b5998;
+	background-color: white;
+	font-weight: bold;
+}
+#input-image{
+	background:transparent;
+
+}
+#disclaimer{
+	margin-left:6px;
+}
